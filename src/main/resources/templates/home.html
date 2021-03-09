@@ -3,7 +3,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Covid-19 Tracker Application</title>
+    <title>Covid-19 Tracker Application By Tushar Diwakar</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!--
     <link rel="stylesheet" type="text/css" media="all"
@@ -20,12 +20,13 @@
         <hr class="my-4">
         <p class="lead">Total cases reported as of today:</p>
         <hr class="my-4">
-    <p>The data has been taken from COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University</p>
-    <a class="btn btn-primary btn-lg" href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" role="button">Learn more</a>
         <h1 class="display-3" th:text="${totalReportedCases}"></h1>
         <p class="lead">New cases reported today:</p>
         <h1 class="display-3" th:text="${totalNewCases}"></h1>
         <hr class="my-4">
+         <hr class="my-4">
+    <p>The data has been taken from COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University</p>
+    <a class="btn btn-primary btn-lg" href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" role="button">Learn more</a>
     </div>
 </div>
 
