@@ -2,5 +2,5 @@ Data (updated daily): https://raw.githubusercontent.com/CSSEGISandData/COVID-19/
 
 Built with: Spring Boot (Java), HTML, Thymeleaf, and Bootstrap. 
 
-Deployed using Heroku: https://glacial-harbor-89757.herokuapp.com/
+Deployed using Heroku: 
 
